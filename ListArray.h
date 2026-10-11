@@ -99,7 +99,7 @@ class ListArray : public List<T> {
                         }
 
                         n--;
-                        delete[] element;
+                        return element;
                 }
 
                 void prepend(T e){
